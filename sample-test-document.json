@@ -1,0 +1,23 @@
+{
+  "_comment": "Paste these fields into a parent_portal/<admNo>__<yyyymmdd> document (Firebase console > Firestore) to test the new tabs.",
+  "attendance": [
+    { "date": "2026-10-01", "status": "Present" },
+    { "date": "2026-10-02", "status": "Absent", "note": "Fever" },
+    { "date": "2026-10-03", "status": "Late" },
+    { "date": "2026-10-05", "status": "Present" },
+    { "date": "2026-10-06", "status": "Present" }
+  ],
+  "reportCards": [
+    {
+      "exam": "Quarterly", "year": "2026-27", "date": "2026-09-20",
+      "rank": 4, "remarks": "Good progress. Keep practising Science.",
+      "subjects": [
+        { "name": "Telugu", "marks": 91, "max": 100 },
+        { "name": "English", "marks": 84, "max": 100 },
+        { "name": "Maths", "marks": 88, "max": 100 },
+        { "name": "Science", "marks": 72, "max": 100 },
+        { "name": "Social Studies", "marks": 79, "max": 100 }
+      ]
+    }
+  ]
+}
